@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f3b57;
+    color: white;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e8f1ff;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+/* IMAGE */
+.image-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.image-section img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}.content {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.content ul {
+    line-height: 1.8;
+}
+.form-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: #1f3b57;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.hero {
+    background: linear-gradient(to right, #e8f1ff, #ffffff);
+}
+
+body {
+    line-height: 1.6;
+}
